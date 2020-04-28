@@ -13,3 +13,19 @@ a {
   color: #333;
   text-decoration: none;
 }
+
+.todos {
+  background: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px #ccc dotted;
+}
+
+.btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
