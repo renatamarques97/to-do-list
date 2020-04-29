@@ -19,7 +19,7 @@ class TodoItem extends Component {
           /> {' '}
           { title }
           <button
-            className="btn"
+            className="btn btn-danger"
             onClick={this.props.deleteTodo.bind(this, id)}>
             x
           </button>
