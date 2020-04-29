@@ -9,6 +9,10 @@ body {
   line-height: 1.4;
 }
 
+.container {
+  padding: 0 1rem;
+}
+
 a {
   color: #333;
   text-decoration: none;
@@ -21,11 +25,32 @@ a {
 }
 
 .btn {
-  background: crimson;
   color: white;
   border: none;
   padding: 5px 8px;
-  border-radius: 50%;
   cursor: pointer;
   float: right;
 }
+
+.btn-success {
+  background: green;
+  border-radius: 10%;
+  font-size: large;
+}
+
+.btn-danger {
+  background: crimson;
+  border-radius: 50%;
+}
+
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+}
+
